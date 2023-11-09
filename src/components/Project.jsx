@@ -1,4 +1,4 @@
-export default function Project(props) {
+export default function Project({ name, screenshot, github, deploy }) {
     <div id="project">
         
     </div>
