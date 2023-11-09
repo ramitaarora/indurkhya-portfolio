@@ -1,6 +1,7 @@
 import Header from '../components/Header';
+import Project from '../components/Project';
 
-projects = [
+let projects = [
     {
         name: "Meal Match",
         screenshot: "/images/meal-match-screenshot.png",
@@ -44,7 +45,7 @@ export default function Portfolio() {
         <div id="body-style" className="min-w-screen m-5 flex flex-column justify-center align-center">
             <Header header='Portfolio' /> 
             {projects.map(item => {
-                <Project name={item.name} screenshot={item.screenshot} github={item.github} deploy={item.deploy} />
+                return <Project name={item.name} screenshot={item.screenshot} github={item.github} deploy={item.deploy} />
             })}
         </div>
     )

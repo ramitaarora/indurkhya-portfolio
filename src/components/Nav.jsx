@@ -9,10 +9,10 @@ export default function Nav() {
     </div>
     
     <div className="w-96 flex flex-row align-center justify-evenly">
-      <Link classname="cursor-pointer" to="/">Home</Link>
-      <Link classname="cursor-pointer" to="/About">About</Link>
-      <Link classname="cursor-pointer" to="/Portfolio">Portfolio</Link>
-      <Link classname="cursor-pointer" to="/Contact">Contact</Link>
+      <Link className="cursor-pointer" to="/">Home</Link>
+      <Link className="cursor-pointer" to="/About">About</Link>
+      <Link className="cursor-pointer" to="/Portfolio">Portfolio</Link>
+      <Link className="cursor-pointer" to="/Contact">Contact</Link>
     </div>
             
     </div>
