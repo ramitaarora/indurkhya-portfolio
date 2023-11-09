@@ -44,9 +44,13 @@ export default function Portfolio() {
     return (
         <div id="body-style" className="min-w-screen m-5 flex flex-column justify-center align-center">
             <Header header='Portfolio' /> 
-            {projects.map(item => {
-                return <Project name={item.name} screenshot={item.screenshot} github={item.github} deploy={item.deploy} />
+
+            <div id="project-cards" className="min-w-screen mt-3 w-full flex flex-row flex-wrap justify-center align-center">
+            {projects.map((item, index) => {
+                return <Project key={index} name={item.name} screenshot={item.screenshot} github={item.github} deploy={item.deploy} />
             })}
+            </div>
+            
         </div>
     )
 }
