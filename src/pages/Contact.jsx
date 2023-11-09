@@ -14,7 +14,7 @@ export default function Contact() {
 
                     <div id="form-input" className="flex flex-column justify-between m-3">
                         <label for="email" className="text-white">Email: </label>
-                        <input type="text" name="email" className="p-2 min-w-max" size="40" required></input>          
+                        <input type="text" name="email" className="p-2 min-w-max" size="40" pattern="/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/" required></input>          
                     </div>
                    
                     <div id="form-input" className="flex flex-column justify-between m-3">
