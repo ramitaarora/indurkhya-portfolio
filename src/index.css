@@ -35,3 +35,10 @@ a:hover {
     position: relative;
     top: -160px;
 }
+
+@media screen and (max-width: 900px) {
+    #about-section {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
