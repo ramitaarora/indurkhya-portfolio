@@ -5,3 +5,25 @@
 a:hover {
     text-shadow: 2px 2px 2px grey;
 }
+
+#logo-div {
+    background-color: white;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+
+#logo {
+    line-height: 380px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 4px 4px 4px grey;
+    font-size: 250%;
+    text-align: center;
+}
+
+#tagline {
+    text-align: center;
+    text-shadow: 4px 4px 4px grey;
+    position: relative;
+    top: -160px;
+}
