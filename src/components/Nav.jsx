@@ -13,6 +13,7 @@ export default function Nav() {
       <Link className="cursor-pointer" to="/About">About</Link>
       <Link className="cursor-pointer" to="/Portfolio">Portfolio</Link>
       <Link className="cursor-pointer" to="/Contact">Contact</Link>
+      <Link className="cursor-pointer" to="/Resume">Resume</Link>
     </div>
             
     </div>
