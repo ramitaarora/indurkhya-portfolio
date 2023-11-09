@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Home() {
     return (
     <div className="flex flex-row min-w-screen min-h-screen justify-center items-center">

@@ -1,5 +1,10 @@
-import React from 'react';
-
 export default function Contact() {
-    return <h1>Contact</h1>   ;
+    return (
+        <div id="body-style" className="m-5">
+            <div id="header-style">
+                <h1>Contact</h1>
+            </div>
+
+        </div>
+    )
 }
