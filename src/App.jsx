@@ -4,12 +4,11 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 
 function App() {
-  const [header, setHeader] = useState('')
 
   return (
     <div>
-      <Nav header={header} setHeader={setHeader} />
-      <Outlet header={header} setHeader={setHeader} />
+      <Nav />
+      <Outlet />
       <Footer />
     </div>
   );

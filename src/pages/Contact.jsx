@@ -1,9 +1,9 @@
+import Header from '../components/Header';
+
 export default function Contact() {
     return (
         <div id="body-style" className="min-w-screen m-5 flex flex-column justify-center align-center">
-            <div id="header-style">
-                <h1>Contact</h1>
-            </div>
+            <Header header='Contact' />
 
             <div id="contact-form" className="my-3 p-3 w-1/2 m-auto overflow-auto border rounded-lg">
                 <form>
