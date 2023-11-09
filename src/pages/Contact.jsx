@@ -5,7 +5,7 @@ export default function Contact() {
                 <h1>Contact</h1>
             </div>
 
-            <div id="contact-form" className="my-3 border p-3 w-1/2 m-auto overflow-auto">
+            <div id="contact-form" className="my-3 p-3 w-1/2 m-auto overflow-auto">
                 <form>
                     <div id="form-input" className="flex flex-row justify-between m-3">
                         <label for="name" className="text-white">Name: </label>
