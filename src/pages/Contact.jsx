@@ -14,22 +14,22 @@ export default function Contact() {
     }
 
     return (
-        <div id="body-style" className="min-w-screen m-5 flex flex-column justify-center align-center">
+        <div id="body-style" className="min-w-screen md:m-5 flex flex-column justify-center align-center">
             <Header header='Contact' />
 
-            <div id="contact-form" className="my-3 p-3 m-auto overflow-hidden border rounded-lg">
+            <div id="contact-form" className="md:my-3 p-3 md:m-auto overflow-hidden border rounded-lg">
                 <form onSubmit={() => onSubmit(event)}>
-                    <div id="form-input" className="flex flex-column justify-between m-3">
+                    <div id="form-input" className="flex flex-column justify-between md:m-3">
                         <label htmlFor="name" className="text-white">Name: </label>
                         <input type="text" name="name" className="p-2 min-w-max" size="40" required></input>          
                     </div>
 
-                    <div id="form-input" className="flex flex-column justify-between m-3">
+                    <div id="form-input" className="flex flex-column justify-between md:m-3">
                         <label htmlFor="email" className="text-white">Email: </label>
                         <input type="text" name="email" className="p-2 min-w-max" size="40" required></input>          
                     </div>
                    
-                    <div id="form-input" className="flex flex-column justify-between m-3">
+                    <div id="form-input" className="flex flex-column justify-between md:m-3">
                         <label htmlFor="name" className="text-white">Message: </label>
                         <textarea placeholder="Enter your message here..." cols="39" rows="5" className="p-2 min-w-max" required></textarea>       
                     </div>
