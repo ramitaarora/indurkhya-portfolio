@@ -21,17 +21,18 @@ let projects = [
         deploy: "https://ramitaarora.github.io/weather-dashboard/",
     },
     {
-        name: "Travel Guide",
-        screenshot: "/images/travel-guide-screenshot.png",
-        github: "https://github.com/ramitaarora/travel-guide",
-        deploy: "https://ramitaarora.github.io/travel-guide/",
-    },
-    {
         name: "Wine Wizard",
         screenshot: "/images/wine-wizard-screenshot.png",
         github: "https://github.com/ramitaarora/wine-wizard",
         deploy: "https://wine-wizard-a6de255e2c53.herokuapp.com/",
     },
+    {
+        name: "Travel Guide",
+        screenshot: "/images/travel-guide-screenshot.png",
+        github: "https://github.com/ramitaarora/travel-guide",
+        deploy: "https://ramitaarora.github.io/travel-guide/",
+    },
+    
     {
         name: "Coding Quiz",
         screenshot: "/images/coding-quiz-screenshot.png",

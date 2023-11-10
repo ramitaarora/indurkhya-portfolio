@@ -5,7 +5,7 @@ export default function About() {
         <div id="body-style" className="m-5">
             <Header header='About Me' />
             <div id="about-section" className="flex flex-row justify-center">
-                <p className="text-white">
+                <p className="text-white ml-6">
                 Ramita Indurkhya is an aspiring web developer. 
                 <br></br><br></br>
                 She has been designing websites for quite a few years on her own. When she was younger, she would frequently build play websites for fun. Later on as she was pursuing music, she was prompted to make a website that served as a portfolio and decided to do it herself. 

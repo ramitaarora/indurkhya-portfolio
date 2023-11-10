@@ -2,17 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global Styles */
+
+* {
+    font-family: 'Quicksand', 'Times New Roman', serif;
+}
+
 a:hover {
     text-shadow: 2px 2px 2px grey;
 }
 
-#header-style {
-    font-family: 'Dancing Script', cursive;
-    text-shadow: 4px 4px 4px grey;
-    font-size: 250%;
-    color: white;
-    margin: 20px;
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
+/* Front Page Styles */
 
 #logo-div {
     background-color: white;
@@ -23,7 +32,7 @@ a:hover {
 
 #logo {
     line-height: 380px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive !important;
     text-shadow: 4px 4px 4px grey;
     font-size: 250%;
     text-align: center;
@@ -35,6 +44,28 @@ a:hover {
     position: relative;
     top: -160px;
 }
+
+/* Other Styles */
+
+nav, #footer, #body-style, #logo-div {
+    animation: fadeIn 1s ease-in;
+}
+
+#project-card:hover {
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+}
+
+#header-style {
+    font-family: 'Dancing Script', cursive !important;
+    text-shadow: 4px 4px 4px grey;
+    font-size: 250%;
+    color: white;
+    margin: 20px;
+}
+
+/* Media Queries */
 
 @media screen and (max-width: 900px) {
     #about-section {

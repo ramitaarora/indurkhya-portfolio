@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="min-w-screen mt-9 p-3 text-slate-400">
+        <footer id="footer" className="min-w-screen mt-9 p-3 text-slate-400">
             <div id="icons" className="w-96 m-auto flex flex-row justify-evenly justify-self-end">
                 <a href="https://www.github.com/ramitaarora">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16" className="hover:text-white">
