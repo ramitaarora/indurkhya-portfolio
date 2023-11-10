@@ -12,9 +12,9 @@ export default function Nav() {
       <div className="w-96 flex flex-row align-center justify-evenly">
         <NavLink activeClassName="active" to="/">Home</NavLink>
         <NavLink activeClassName="active" to="/About">About</NavLink>
-        <NavLink to="/Portfolio">Portfolio</NavLink>
-        <NavLink to="/Contact">Contact</NavLink>
-        <NavLink to="/Resume">Resume</NavLink>
+        <NavLink activeClassName="active" to="/Portfolio">Portfolio</NavLink>
+        <NavLink activeClassName="active" to="/Contact">Contact</NavLink>
+        <NavLink activeClassName="active" to="/Resume">Resume</NavLink>
       </div>
             
     </nav>
