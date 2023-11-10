@@ -5,7 +5,7 @@ export default function Nav() {
     <nav className="flex flex-row justify-between bg-gray-800 text-white p-3">
     
       <div>
-        <p>Portfolio</p>
+        <p>Ramita's Portfolio</p>
       </div>
       
       <div className="w-96 flex flex-row align-center justify-evenly">

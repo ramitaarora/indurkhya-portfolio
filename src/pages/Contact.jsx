@@ -17,7 +17,7 @@ export default function Contact() {
         <div id="body-style" className="min-w-screen m-5 flex flex-column justify-center align-center">
             <Header header='Contact' />
 
-            <div id="contact-form" className="my-3 p-3 m-auto overflow-auto border rounded-lg">
+            <div id="contact-form" className="my-3 p-3 m-auto overflow-hidden border rounded-lg">
                 <form onSubmit={() => onSubmit(event)}>
                     <div id="form-input" className="flex flex-column justify-between m-3">
                         <label htmlFor="name" className="text-white">Name: </label>
