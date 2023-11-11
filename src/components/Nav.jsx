@@ -1,5 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
+// className="flex sm:flex-column md:flex-row align-center justify-evenly"
+
 export default function Nav() {
 
   return (
@@ -9,7 +11,7 @@ export default function Nav() {
         <p>Ramita's Portfolio</p>
       </div>
       
-      <div className="w-96 flex flex-row align-center justify-evenly flex-wrap">
+      <div id="menu">
         <NavLink activeClassName="active" to="/">Home</NavLink>
         <NavLink activeClassName="active" to="/About">About</NavLink>
         <NavLink activeClassName="active" to="/Portfolio">Portfolio</NavLink>
