@@ -9,6 +9,12 @@ let projects = [
         deploy: "https://ramitaarora.github.io/meal-match/",
     },
     {
+        name: "Chit Chat",
+        screenshot: "/images/chit-chat-screenshot.png",
+        github: "https://github.com/ramitaarora/chit-chat",
+        deploy: "https://chit-chat-wechatalot-00f4f8dc2d8e.herokuapp.com/",
+    },
+    {
         name: "Tech Blog",
         screenshot: "/images/tech-blog-screenshot.png",
         github: "https://github.com/ramitaarora/mvc-tech-blog",
@@ -31,13 +37,6 @@ let projects = [
         screenshot: "/images/travel-guide-screenshot.png",
         github: "https://github.com/ramitaarora/travel-guide",
         deploy: "https://ramitaarora.github.io/travel-guide/",
-    },
-    
-    {
-        name: "Coding Quiz",
-        screenshot: "/images/coding-quiz-screenshot.png",
-        github: "https://github.com/ramitaarora/coding-quiz-challenge",
-        deploy: "https://ramitaarora.github.io/coding-quiz-challenge/",
     },
 ]
 
