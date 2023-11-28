@@ -20,7 +20,7 @@ To start, run `npm start`.
 
 ## Usage
 
-This project has been deployed at: https://main--indurkhya-react-portfolio.netlify.app/
+This project has been deployed at: https://indurkhya-portfolio.netlify.app/
 
 <img src="./public/images/portfolio-screenshot.png" alt="screenshot"/>
 
