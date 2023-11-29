@@ -15,7 +15,6 @@ export default function Nav() {
         <NavLink activeClassName="active" to="/">Home</NavLink>
         <NavLink activeClassName="active" to="/About">About</NavLink>
         <NavLink activeClassName="active" to="/Portfolio">Portfolio</NavLink>
-        <NavLink activeClassName="active" to="/Contact">Contact</NavLink>
         <NavLink activeClassName="active" to="/Resume">Resume</NavLink>
       </div>
             
