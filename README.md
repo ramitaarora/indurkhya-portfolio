@@ -1,16 +1,11 @@
-# React Portfolio
-
-## UCLA Bootcamp Module 20 Challenge
+# Ramita Indurkhya's Portfolio
 
 ## Description
 
-This is a portfolio website. Upon loading the landing page, the user can navigate to:
-
-1. The About page, which has a detailed story of my journey into web development, as well as a recent avatar.
-2. The Portfolio page, which showcases six applications with links to the deployed applications and GitHub repositories.
-3. The Contact page, where the user can submit a message via a contact form.
-4. The Resume page, which has a link to my resume for download, as well as a list of front-end and back-end proficiencies.
-5. Any of the Footer links, which lead to GitHub, LinkedIn and Stack Overflow.
+This is Ramita's portfolio website. Technologies include:
+- React
+- TailwindCSS
+- React Router
 
 ## Installation
 
