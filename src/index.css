@@ -62,7 +62,7 @@ nav, #footer, #body-style, #logo-parent {
     align-items: flex-end;
 }
 
-#project-card:hover {
+#project-header:hover {
     position: relative;
     top: -20px;
     cursor: pointer;
@@ -96,7 +96,9 @@ nav, #footer, #body-style, #logo-parent {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    
+    #project-card {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 600px) {
