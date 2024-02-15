@@ -11,7 +11,7 @@ export default function Resume() {
 
                 <div id="text" className="ml-6">
                     <h2 className="mt-3 mb-5 text-xl text-center flex flex-row justify-center">Download my resume:
-                        <a href="https://drive.google.com/file/d/1o6VyU3K8VZdvOijFhL1CJ_P1tvdxeHg0/view?usp=sharing" target="_blank">
+                        <a href="https://drive.google.com/file/d/1tiYA9o3zFRn_f8yC-Fxy0xWXxUMkdd1x/view?usp=sharing" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="ml-5 text-slate-400 hover:text-white" viewBox="0 0 16 16">
                                 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
                                 <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
