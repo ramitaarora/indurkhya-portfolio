@@ -11,6 +11,14 @@ let projects = [
         tech: ['React', 'JavaScript', 'CSS']
     },
     {
+        name: "Mosaic Planner",
+        screenshot: "/images/planner-screenshot.png",
+        github: "https://github.com/ramitaarora/mosaic-planner",
+        deploy: "https://mosaic-planner-112e49ce3b90.herokuapp.com/",
+        description: `This project is a full-stack application that combines different aspects of a traditional planner: a calendar, schedule, daily items, reminders/notes, and goals. A user will be able to add, view, update and delete anything via the dashboard.`,
+        tech: ['React', 'JavaScript', 'CSS', 'SQL', 'MySQL', 'Sequelize', 'Node', 'Express']
+    },
+    {
         name: "Chit Chat",
         screenshot: "/images/chit-chat-screenshot.png",
         github: "https://github.com/ramitaarora/chit-chat",
@@ -25,15 +33,7 @@ let projects = [
         deploy: "https://mvc-tech-blog-indurkhya-ecc84c878b3c.herokuapp.com/",
         description: `This project is a full-stack CRUD website, similar to WordPress and other CMS websites. Users may sign up and log in to write, edit and delete blog posts. They may also comment on other user's blog posts.`,
         tech: ['JavaScript', 'CSS', 'SQL', 'MySQL', 'Sequelize']
-    },
-    {
-        name: "Weather Dashboard",
-        screenshot: "/images/weather-screenshot.png",
-        github: "https://github.com/ramitaarora/weather-dashboard",
-        deploy: "https://ramitaarora.github.io/weather-dashboard/",
-        description: `A front-end weather dashboard that fetches from the OpenWeather API and displays the current forecast, as well as the 5-day forecast. Users are able to search by city to display the weather.`,
-        tech: ['JavaScript', 'CSS', 'Fetch API']
-    },
+    }
 ]
 
 export default function Portfolio() {

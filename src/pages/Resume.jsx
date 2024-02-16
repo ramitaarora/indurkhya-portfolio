@@ -1,6 +1,6 @@
 import Header from '../components/Header';
 
-const frontEnd = ["HTML", "CSS", "JavaScript", "jQuery", "Tailwind", "Bootstrap", "Photoshop", "Canva", "React"];
+const frontEnd = ["HTML", "CSS", "JavaScript", "jQuery", "React", "Tailwind", "Bootstrap", "Photoshop", "Canva"];
 const backEnd = ["Python", "APIs", "Node.js", "Express.js", "MySQL", "Sequelize", "MongoDB", "Mongoose", "GraphQL"];
 
 export default function Resume() {
