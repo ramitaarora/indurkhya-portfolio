@@ -2,7 +2,7 @@ import Header from '../components/Header';
 
 export default function About() {
     return (
-        <div id="body-style" className="m-5">
+        <div id="about" className="m-5">
             <Header header='About Me' />
             <div id="about-section" className="flex flex-row justify-center">
                 <p className="text-white ml-6">

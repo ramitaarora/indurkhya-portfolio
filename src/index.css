@@ -25,7 +25,7 @@ a:hover {
     }
 }
 
-/* Front Page Styles */
+/* Home Styles */
 
 #logo-div {
     background-color: white;
@@ -50,16 +50,18 @@ a:hover {
     top: -160px;
 }
 
-/* Other Styles */
+/* Other */
 
-nav, #footer, #body-style, #logo-parent {
+nav, #footer, main, #logo-parent {
     animation: fadeIn 1s ease-in;
 }
 
-#menu {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+#menu svg {
+    color: lightgrey;
+}
+
+#menu svg:hover {
+    color: white;
 }
 
 #project-header:hover {
@@ -74,6 +76,7 @@ nav, #footer, #body-style, #logo-parent {
     font-size: 250%;
     color: white;
     margin: 20px;
+    text-align: center;
 }
 
 #skill {
@@ -91,14 +94,12 @@ nav, #footer, #body-style, #logo-parent {
 
 /* Media Queries */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     #about-section {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    #project-card {
-        width: 100%;
-    }
+
 }
 
 @media screen and (min-width: 600px) {
@@ -107,6 +108,25 @@ nav, #footer, #body-style, #logo-parent {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        width: 400px;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #title, #nav-icons {
+        display: none;
+    }
+    #menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+    #logo-div {
+        margin: 80px 10px 10px 10px;
+    }
+    #project-card {
+        width: 100%;
     }
 }

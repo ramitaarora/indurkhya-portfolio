@@ -1,16 +1,21 @@
-import { Outlet } from 'react-router-dom';
-import { useState } from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 function App() {
 
   return (
-    <div>
+    <main>
       <Nav />
-      <Outlet />
+      <Home />
+      <About />
+      <Portfolio />
+      <Resume />
       <Footer />
-    </div>
+    </main>
   );
 }
 

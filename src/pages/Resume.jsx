@@ -5,7 +5,7 @@ const backEnd = ["Python", "APIs", "Node.js", "Express.js", "MySQL", "Sequelize"
 
 export default function Resume() {
     return (
-        <div id="body-style" className="min-w-screen m-5 flex flex-column justify-center align-center text-white">
+        <div id="resume" className="min-w-screen m-5 flex flex-column justify-center align-center text-white">
             <Header header='Resume' />
             <div className="flex flex-row justify-center align-center">
 
