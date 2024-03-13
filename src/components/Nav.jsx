@@ -8,10 +8,11 @@ export default function Nav() {
       </div>
 
       <div id="menu" className="flex flex-row justify-evenly w-full items-center">
-        <a activeClassName="active" href="#home">Home</a>
-        <a activeClassName="active" href="#about">About</a>
-        <a activeClassName="active" href="#portfolio">Portfolio</a>
-        <a activeClassName="active" href="#resume">Resume</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact-form">Contact</a>
       </div>
 
       <div id="nav-icons" className="flex flex-row justify-evenly w-1/4 items-center">

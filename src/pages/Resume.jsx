@@ -22,14 +22,14 @@ export default function Resume() {
                         <h2 className="text-xl mt-3 text-center">Front-End Proficiencies</h2>
                         <ul className="ml-3 mt-4 flex flex-row flex-wrap align-center justify-center text-center">
                             {frontEnd.map((skill, index) => {
-                                return <div id="skill" className="m-3 hover:animate-bounce"><li id="skill-text" key={index}>{skill}</li></div>
+                                return <div key={index} id="skill" className="m-3 hover:animate-bounce"><li id="skill-text">{skill}</li></div>
                             })}
                         </ul>
 
                         <h2 className="text-xl mt-3 text-center">Back-End Proficiencies</h2>
                         <ul className="ml-3 mt-4 flex flex-row flex-wrap align-center justify-center text-center">
                         {backEnd.map((skill, index) => {
-                            return <div id="skill" className="m-3 hover:animate-bounce"><li id="skill-text" key={index}>{skill}</li></div>
+                            return <div id="skill" key={index} className="m-3 hover:animate-bounce"><li id="skill-text">{skill}</li></div>
                         })}
                         </ul>
                     </div>
