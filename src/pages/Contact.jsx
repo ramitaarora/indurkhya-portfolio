@@ -32,12 +32,19 @@ export default function Contact() {
                         "Content": "string",
                         "Charset": "string"
                     }],
-                    "From": "John Doe <email@domain.com>",
+                    "From": "Test <ramitaarora23@gmail.com>",
                     "Subject": "Test Email"
                 }
             })
         })
-        console.log(response);
+
+        const responseData = await response.json();
+
+        if (response.ok) {
+            console.log('Email sent successfully:', responseData);
+        } else {
+            console.error('Failed to send email:', responseData);
+        }
     }
 
     return (

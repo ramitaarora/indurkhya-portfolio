@@ -12,7 +12,7 @@ export default function Nav() {
         <a href="#about">About</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#resume">Resume</a>
-        <a href="#contact-form">Contact</a>
+        {/*<a href="#contact-form">Contact</a>*/}
       </div>
 
       <div id="nav-icons" className="flex flex-row justify-evenly w-1/4 items-center">

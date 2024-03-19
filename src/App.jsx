@@ -15,6 +15,7 @@ function App() {
       <About />
       <Portfolio />
       <Resume />
+      {/*<Contact />*/}
       <Footer />
     </main>
   );
