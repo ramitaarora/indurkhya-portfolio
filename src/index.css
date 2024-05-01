@@ -33,6 +33,7 @@ a:hover {
     height: 400px;
     width: 400px;
     box-shadow: 2px 2px 20px lightgrey;
+    margin: 125px auto 50px auto;
 }
 
 #logo {
