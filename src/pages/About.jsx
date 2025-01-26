@@ -15,7 +15,7 @@ export default function About() {
                 Presently, Ramita is continuing her journey in practicing building front-end and full-stack applications and volunteering with the Pleasant Hill Instructional Garden in developing their website. She enjoys developing her projects with React, SQL, Express and Node.
                 </p>
 
-                <img src="/images/ramita.JPG" width="300px" alt="ramita" className="m-5 rounded-full"/>
+                <img src="/indurkhya-portfolio/images/ramita.JPG" width="300px" alt="ramita" className="m-5 rounded-full"/>
             </div>
             
         </div>
